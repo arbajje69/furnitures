@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+         *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+         }
+         .add{
+            font-size: 70px;
+            text-align: center;
+           align-content: center;
+           margin-top: 50px;
+           height: 34px;
+
+         }
+         nav{
+            height: 60px;
+            
+            background-color: rgb(214, 133, 56);
+            display: flex;
+            margin: 65px -270px 0px 0px;
+        }
+        .nav-item{
+            width: 60%;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            margin-left: 0px;
+        }
+        ul{
+            width: 70%;
+            height: 100%;
+            justify-content: space-around;
+            display: flex;
+            align-items: center;
+            margin-left: 100px;
+        }
+        li{
+            list-style-type: none;
+
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+        .heading h1{
+                text-align: center;
+               align-content: center;
+               font-size: 20px;
+               margin: 0px 0px 0px 0px;
+        }
+         .homepage{
+            height: 100vh;
+            background-image: url(home1.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-self: center;
+            image-orientation: flip;
+         }
+         .homepage h2{
+            color: purple;
+            font-size: 75px;
+            margin: -247px 0px 225px 15px;
+         }
+         .hp1{
+            font-size: 70px;
+            margin: 0px 0px 5px 90px;
+         }
+         .homepage p{
+            font-size: 20px;
+            margin: 1px 0px 3px 12px;
+         }
+         .homepage button{
+            display: inline-block;
+            height: 5%;
+            width: 145px;
+            margin: -215px 0px 135px 39px;
+            padding: 0px;
+            border: none;
+            text-align: center;
+            align-content: center;
+         }
+         .p1{
+            font-size: 20px;
+            margin: 0px 0px 5px 12px;
+         }
+         .feature{
+            height: 280px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+         .features h2{
+            text-align: center;
+            align-content: center;
+            font-size: 30px;
+         }
+         .feature .b1{
+            background-image: url(chair.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+         }
+         .feature .b1:hover{
+            transition: 2s;
+            transform: scale(1.1);
+            box-shadow: 2px 2px 20px 5px teal;
+         }
+
+         .feature .b2{
+            background-image: url(dining.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+         }
+         .feature .b2:hover{
+            transition: 2s;
+            transform: scale(1.1);
+            box-shadow: 2px 2px 20px 5px teal;
+         }
+         .feature .b3{
+            background-image: url(home1.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+         }
+         .feature .b3:hover{
+            transition: 2s;
+            transform: scale(1.1);
+            box-shadow: 2px 2px 20px 5px teal;
+         }
+         .feature .f-box{
+            height: 200px;
+            width: 300px;
+            margin: 0px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+            border-radius: 5PX solid grey;
+           
+         }
+         .f-box h1{
+                margin: 20px 0px 0px 8px;
+                font-size: 20PX;
+                font-weight: 900;
+                color: purple;
+         }
+         .f-box p{
+            margin: 0px 0px 0px 8px;
+            font-size: 20PX;
+            font-weight: 400;
+            color: purple
+         }
+         .f-box button{
+            margin: 10px 0px 0px 20px;
+            height: 25px;
+            width: 90px;
+            font-size: 18PX;
+            font-weight: 400;
+            
+         }
+         .h1{
+            font-size: 20px;
+            text-align: center;
+         }
+        
+        .productfeature{
+            height: 1000px;
+            
+            
+            
+         }
+         .productfeature h1{
+            text-align: center;
+            align-content: center;
+            font-size: 30px;
+         }
+         .pfcontainer{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 1000px;
+            border-radius: 3px solid grey;
+            flex-wrap: wrap;
+         }
+         .pfcontainer .fp{
+            height: 360px;
+            width: 280px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+           
+            border-radius: 10px;
+            margin: 0px 30px;
+            border: 3px solid grey;
+         
+         }
+         .pfcontainer span{
+            font-size: 20px;
+            color: black;
+         }
+         .fp img{
+            height: 65%;
+            border-radius: 10px;
+         }
+         .fp button{
+            display: inline-block;
+            height: 11%;
+            width: -1px;
+            margin-top: 6px;
+            padding: 8px;
+            border: none;
+            text-align: center;
+            align-content: center;
+         }
+         .fp{
+            height: 65;
+            border-radius: 10px;
+        }
+       .about{
+              
+       }
+
+       .about h1{
+         font-size: 45px;
+         text-align: center;
+         align-content: center;
+         margin: -15px 0px 0px 0px;
+       }
+       .about .about-con{
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+           height: 50vh;
+       }
+
+       .about-con .sideimg{
+       
+         height: 95%;
+         width: 50%;
+
+       }
+
+       .sideimg .img{
+         position: relative;
+         left: 3px;
+         top: 95px;
+         height: 362px;
+         width: 565px;
+         background-image: url(hall.img);
+         background-position: center;
+         background-size: cover;
+         background-repeat: no-repeat;
+       }
+
+       .about-con .sidetext{
+         position: relative;
+         top: 115px;
+         left: 8px;
+         height:50%;
+         width: 200%;
+         border: 1px solid;
+       }
+       .about .sidetext{
+         text-align: center;
+         position: relative;
+         left: 10px;
+         bottom: 0px;
+
+      }
+      .about .sidetext button{
+         display: inline-block;
+            height: 15%;
+            width: 145px;
+            margin: -215px 0px 135px 39px;
+            padding: 0px;
+            border: none;
+            text-align: center;
+                       
+      }
+      #footer{
+         height: 150px;
+         width: 100%;
+         background-color: black;
+         margin-top: 100px;
+      }
+      #footer h1{
+         text-align: center;
+         color: white;
+      }
+      #footer p{
+         text-align: center;
+         color: white;
+      }
+      .icon i{
+         color: rgba(238,224,208);
+         font-size: 30px;
+         cursor: pointer;
+      }
+      .copyright{
+               text-align: center;
+               color: white;
+               margin-top: 20px;
+      }
+      .credit{
+         text-align: center;
+         color: white;
+      }
+      
+
+      
+         
+    </style>
+ </head>
+ <body>
+  <h1 class="add">FURNITURE</h1>
+  <nav class="nav">
+   <div class="nav-items"></div>
+   <ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">Shop</a></li>
+    <li><a href="">Top-chair</a></li>
+    <li><a href="">Chair</a></li>
+    <li><a href="">Brands</a></li>
+    <li><a href="">Contact</a></li>
+   </ul>
+  </nav>
+  <section class="homepage">
+   <h2>Make Your Home</h2>
+   <br>
+   <h2>Modern Design.</h2><button>Shop Now</button>
+  </section>
+  <section class="features">
+   <h2>SERVICES WE OFFER</h2>
+   <div class="feature">
+    <div class="f-box b1">
+     <h1>BEST CHAIR</h1>
+     <p></p><button>view more</button>
+    </div>
+    <div class="f-box b2">
+     <h1>DINNING SET</h1>
+     <p></p><button>view more</button>
+    </div>
+    <div class="f-box b3">
+     <h1>SOFASET</h1>
+     <p></p><button>view more</button>
+    </div>
+   </div>
+  </section>
+  <section>
+   <div class="productfeature">
+    <h1>TRENDLY PRODUCTS</h1>
+    <div class="pfcontainer">
+     <div class="fp">
+      <img src="sofa1.jpg" alt=""> <span>New sofa</span> <strong>$103</strong> <button style="background-color: lightskyblue">Shop now</button>
+     </div>
+     <div class="fp">
+      <img src="chair3.jpg" alt=""> <span>New chair</span> <strong>$59.2</strong> <button style="background-color: lightskyblue;">Shop now</button>
+     </div>
+     <div class="fp">
+      <img src="sofa3.jpg" alt=""> <span>Best sofa</span> <strong>$234</strong> <button style="background-color: lightskyblue">Shop now</button>
+     </div>
+     <div class="fp">
+      <img src="hanging.jpg" alt=""> <span>Hanging chair</span> <strong>$78</strong> <button style="background-color: lightskyblue">Shop now</button>
+     </div>
+     <div class="fp">
+      <img src="modern.jpg" alt=""> <span>Modern chair</span> <strong>$43</strong> <button style="background-color: lightskyblue">Shop now</button>
+     </div>
+     <div class="fp">
+      <img src="tablechair.jpg" alt=""> <span>Table chair</span> <strong>$53</strong> <button style="background-color: lightskyblue">Shop now</button>
+     </div>
+     <div class="fp">
+      <img src="sofachair.jpg" alt=""> <span>Modern sofa</span> <strong>$142</strong> <button style="background-color: lightskyblue">Shop now</button>
+     </div>
+     <div class="fp">
+      <img src="dr.jpg" alt=""> <span>Dressing table</span> <strong>$82</strong> <button style="background-color: lightskyblue">Shop now</button>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="about">
+   <h1>ABOUT</h1>
+   <div class="about-con">
+    <div class="sideimg">
+     <div class="img"></div>
+    </div>
+    <div class="sidetext">
+     <p>Welcome to our Furniture Store! Here, you'll find a curated collection of stylish, high-quality furniture designed to transform your living spaces. Whether you're looking for modern sofas, timeless dining tables, or cozy bedroom sets, we offer pieces that blend functionality with elegance. Explore our wide range of designs crafted from premium materials to suit every style and budget. Our team is committed to helping you create the home of your dreams with expert advice and personalized service. Discover the perfect furniture for your space and bring your vision to life with us.</p><button>read more</button>
+    </div>
+   </div>
+  </section>
+  <section>
+   <div class="book">
+   </div>
+  </section>
+  <footer id="footer">
+   <h1>FURNITURE</h1>
+   <p></p>
+   <div class="icons"></div>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   </div>
+ </body>
+</html>
